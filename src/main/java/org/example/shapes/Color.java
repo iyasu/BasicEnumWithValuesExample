@@ -10,7 +10,7 @@ public enum Color {
         this.code = code;
     }
 
-    public static Color valueOfLabel(String code) {
+    public static Color valueOfColor(String code) {
         for (Color color : values()) {
             if (color.code.equals(code)) {
                 return color;
